@@ -14,10 +14,11 @@ class DetailProfileSeeder extends Seeder
      */
     public function run()
     {
+        //insert data tabel pegawai
         DB::table('detail_profile')->insert([
             'address' => 'Probolinggo',
-            'nomor_tlp' => '0888888888',
-            'ttl' => '2001-06-7',
+            'nomor_tlp' => '085156917824',
+            'ttl' => '2001-06-10',
             'foto' => 'picture.png'
         ]);
     }
